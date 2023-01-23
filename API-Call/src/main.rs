@@ -1,26 +1,29 @@
-use std::env;
-use warp::Filter;
+use reqwest::header::USER_AGENT;
+use reqwest::Error;
+use serde::Deserialize;
+// use std::str::FromStr;
 
-mod custom_filters;
-mod handlers;
-mod routes;
-mod schema;
-mod validators;
+#[derive(Deserialize, Debug)]
+struct User {
+    login: String,
+    id: u32,
+}
 
 #[tokio::main]
-async fn main() {
-    // Show debug logs by default by setting `RUST_LOG=restful_rust=debug`
-    if env::var_os("RUST_LOG").is_none() {
-        env::set_var("RUST_LOG", "restful_rust=debug");
-    }
-    pretty_env_logger::init();
+async fn main() -> Result<(), Error> {
+    let request_url = format!(
+        "https://api.github.com/repos/{owner}/{repo}/stargazers",
+        owner = "rust-lang-nursery",
+        repo = "rust-cookbook"
+    );
+    let client = reqwest::Client::new();
+    let response = client
+        .get(&request_url)
+        .header(USER_AGENT, "rust-web-api-client demo ")
+        .send()
+        .await?; //
 
-    let db = schema::example_db();
-
-    let api = routes::games_routes(db);
-
-    let routes = api.with(warp::log("restful_rust"));
-
-    // Start the server
-    warp::serve(routes).run(([127, 0, 0, 1], 8080)).await;
+    let users: Vec<User> = response.json().await?; // collection of multiple users
+    println!("{:?}", users);
+    Ok(())
 }
