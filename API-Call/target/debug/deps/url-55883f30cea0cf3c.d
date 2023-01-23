@@ -1,0 +1,13 @@
+D:\API\API-Call\target\debug\deps\url-55883f30cea0cf3c.rmeta: C:\Users\user\.cargo\registry\src\github.com-1ecc6299db9ec823\url-2.3.1\src\lib.rs C:\Users\user\.cargo\registry\src\github.com-1ecc6299db9ec823\url-2.3.1\src\host.rs C:\Users\user\.cargo\registry\src\github.com-1ecc6299db9ec823\url-2.3.1\src\origin.rs C:\Users\user\.cargo\registry\src\github.com-1ecc6299db9ec823\url-2.3.1\src\parser.rs C:\Users\user\.cargo\registry\src\github.com-1ecc6299db9ec823\url-2.3.1\src\path_segments.rs C:\Users\user\.cargo\registry\src\github.com-1ecc6299db9ec823\url-2.3.1\src\slicing.rs C:\Users\user\.cargo\registry\src\github.com-1ecc6299db9ec823\url-2.3.1\src\quirks.rs
+
+D:\API\API-Call\target\debug\deps\liburl-55883f30cea0cf3c.rlib: C:\Users\user\.cargo\registry\src\github.com-1ecc6299db9ec823\url-2.3.1\src\lib.rs C:\Users\user\.cargo\registry\src\github.com-1ecc6299db9ec823\url-2.3.1\src\host.rs C:\Users\user\.cargo\registry\src\github.com-1ecc6299db9ec823\url-2.3.1\src\origin.rs C:\Users\user\.cargo\registry\src\github.com-1ecc6299db9ec823\url-2.3.1\src\parser.rs C:\Users\user\.cargo\registry\src\github.com-1ecc6299db9ec823\url-2.3.1\src\path_segments.rs C:\Users\user\.cargo\registry\src\github.com-1ecc6299db9ec823\url-2.3.1\src\slicing.rs C:\Users\user\.cargo\registry\src\github.com-1ecc6299db9ec823\url-2.3.1\src\quirks.rs
+
+D:\API\API-Call\target\debug\deps\url-55883f30cea0cf3c.d: C:\Users\user\.cargo\registry\src\github.com-1ecc6299db9ec823\url-2.3.1\src\lib.rs C:\Users\user\.cargo\registry\src\github.com-1ecc6299db9ec823\url-2.3.1\src\host.rs C:\Users\user\.cargo\registry\src\github.com-1ecc6299db9ec823\url-2.3.1\src\origin.rs C:\Users\user\.cargo\registry\src\github.com-1ecc6299db9ec823\url-2.3.1\src\parser.rs C:\Users\user\.cargo\registry\src\github.com-1ecc6299db9ec823\url-2.3.1\src\path_segments.rs C:\Users\user\.cargo\registry\src\github.com-1ecc6299db9ec823\url-2.3.1\src\slicing.rs C:\Users\user\.cargo\registry\src\github.com-1ecc6299db9ec823\url-2.3.1\src\quirks.rs
+
+C:\Users\user\.cargo\registry\src\github.com-1ecc6299db9ec823\url-2.3.1\src\lib.rs:
+C:\Users\user\.cargo\registry\src\github.com-1ecc6299db9ec823\url-2.3.1\src\host.rs:
+C:\Users\user\.cargo\registry\src\github.com-1ecc6299db9ec823\url-2.3.1\src\origin.rs:
+C:\Users\user\.cargo\registry\src\github.com-1ecc6299db9ec823\url-2.3.1\src\parser.rs:
+C:\Users\user\.cargo\registry\src\github.com-1ecc6299db9ec823\url-2.3.1\src\path_segments.rs:
+C:\Users\user\.cargo\registry\src\github.com-1ecc6299db9ec823\url-2.3.1\src\slicing.rs:
+C:\Users\user\.cargo\registry\src\github.com-1ecc6299db9ec823\url-2.3.1\src\quirks.rs:
